@@ -1,0 +1,3 @@
+copy $(TargetPath) "F:\my\my_vb\Inspector\Inspector\bin\Debug\"
+copy $(TargetDir)Queries\* F:\my\my_vb\Inspector\Inspector\bin\Debug\Queries\
+F:\my\my_vb\Inspector\Inspector\bin\Debug\DBManager.exe
