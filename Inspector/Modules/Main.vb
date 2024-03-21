@@ -109,7 +109,8 @@
         h.GetAdapter(dbConnection).DeleteTimeLimit20211031() 'R_goods_groups
         h.GetAdapter(dbConnection).DeleteTimeLimit20220201() 'R_karantin_state
         h.GetAdapter(dbConnection).DeleteTimeLimit20220601() 'R_notkarantin_groups
-        'h.GetAdapter(dbConnection).DeleteTimeLimit20230301() 'R_services
+        h.GetAdapter(dbConnection).DeleteTimeLimit20230301() 'R_services
+        'h.GetAdapter(dbConnection).DeleteTimeLimit20240301() 'R_services_new
 
         'TODO
         'проверять наличие фала в инете:
@@ -119,9 +120,9 @@
 
         'скачивать обновление, даже если программа не запускается из-за защиты
         'обновлять программу скачанными файлами, даже если программа не запускается из-за защиты
-        Dim currentFlug As String = "R_services"
+        Dim currentFlug As String = "R_services_new"
 
-        If DateTime.Now.Date > New Date(2023, 3, 1) Then
+        If DateTime.Now.Date > New Date(2024, 3, 1) Then
 
             h.GetAdapter(dbConnection).Fill(h._H_Queries)
 

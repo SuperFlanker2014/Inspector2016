@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Евгений Ибрагимов")]
 [assembly: AssemblyProduct("Управление Базой Данных")]
-[assembly: AssemblyCopyright("Авторские права © 2007-2022 Евгений Ибрагимов")]
+[assembly: AssemblyCopyright("Авторские права © 2007-2023 Евгений Ибрагимов")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -29,5 +29,5 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("0.233.*")]
-[assembly: AssemblyFileVersion("0.233")]
+[assembly: AssemblyVersion("0.236.*")]
+[assembly: AssemblyFileVersion("0.236")]

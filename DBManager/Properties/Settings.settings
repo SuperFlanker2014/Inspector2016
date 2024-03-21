@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="Version" Type="System.String" Scope="User">
-      <Value Profile="(Default)">0235</Value>
+      <Value Profile="(Default)">0236</Value>
     </Setting>
     <Setting Name="BackupPath" Type="System.String" Scope="User">
       <Value Profile="(Default)">InspectorDB.bak</Value>
